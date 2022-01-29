@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+  <link rel="stylesheet" href="./sass/style.css">
+  <link rel="stylesheet" href="./sass/all.min.css">
+
+</head>
+<body>
+
+
+  <div class="container">
+    <header class="header">
+
+        <div class="rock-paper-scissors">
+          <h1>ROCK</h1>
+          <h1>PAPER</h1>
+          <h1>SCISSORS</h1>
+        </div>
+
+      <div class="score-container">
+        <p>SCORE</p>
+        <h2 id="score">0</h2>
+      </div>
+    
+    </header>
+    <main class="main">
+      <img class="triangle" src="./images/bg-triangle.svg" alt="">
+      <div class="rock box">
+        <img src="./images/icon-rock.svg" alt="">
+      </div>
+      <div class="paper box">
+        <img src="./images/icon-paper.svg" alt="">
+      </div>
+      <div class="scissors box">
+        <img src="./images/icon-scissors.svg" alt="">
+      </div>
+    </main>
+    <main class="gameplay-main">
+      <div class="box me">
+        <div class="txt">
+          <h3>YOU PICKED</h3>
+        </div>
+        <img class="your-pick" src="" alt="">
+      </div>
+      <div class="play-again-container">
+        <p class="status"></p>
+        <button id="play-again">PLAY AGAIN</button>
+      </div>
+      <div class="box opponent">
+        <div class="txt">
+          <h3>THE HOUSE PICKED</h3>
+        </div>
+        <img class="opponent-pick" src="" alt="">
+      </div>
+    </main>
+    <footer class="footer">
+      <button id="rules">
+        RULES
+      </button>
+    </footer>
+  </div>
+
+  <div class="rules-box">
+    <div class="rules-header">
+      <h3>RULES</h3>
+      <img class="close-rules-btn" src="./images/icon-close.svg" alt="">
+    </div>
+    <div class="rules-content">
+      <img src="./images/image-rules.svg" alt="">
+    </div>
+  </div>
+
+  
+  <div class="attribution" style="text-align: center;">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mohamed Essam</a>.
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
